@@ -1,0 +1,25 @@
+.Card {
+    margin: 25px 25px 10px 25px;
+    width: 200px;
+    height: 225px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Card-name {
+    font-weight: bold;
+    color: blue;
+}
+
+
+.Card-type,
+.Card-exp {
+    font-size: .75rem;
+}
+
+.card-exp {
+    padding-bottom: 10px;
+}
